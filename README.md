@@ -41,8 +41,8 @@ SendingUI and ReceivingUIs are linked in back-end using singleton broadcaster
 ## Testing
 
 1. Open SendingUI in browser
- - for Vaadin v8 *http://host:port/vaadin-cdiui-push-poc-v8/sending* (e.g. <http://localhost:8080/vaadin-cdiui-push-poc-v8/sending>)
- - for Vaadin v7 *http://host:port/vaadin-cdiui-push-poc-v7/sending* (e.g. <http://localhost:8080/vaadin-cdiui-push-poc-v7/sending>)
+..* for Vaadin v8 *http://host:port/vaadin-cdiui-push-poc-v8/sending* (e.g. <http://localhost:8080/vaadin-cdiui-push-poc-v8/sending>)
+..* for Vaadin v7 *http://host:port/vaadin-cdiui-push-poc-v7/sending* (e.g. <http://localhost:8080/vaadin-cdiui-push-poc-v7/sending>)
 2. Wihtin SendingUI click on link to open 1 or more ReceivingUIs with appropriate push transport (ReceivingUIs are opened in separate browser windows)
 3. Within SendingUI browser window type a message and press *Send*
 4. Go to ReceivingUIs browser windows and check that the message is visible on the page
