@@ -54,7 +54,7 @@ push does not work for given application server/browser/transport method/Vaadin 
 You can check as well console/log file within Java temporary directory with the log containing application debug messages to see what's happening.
 
 **Note on testing Vaadin v7:**
-As of now you will notice the push being working for v8 but not for v7 (with transports based on WebSockets)
+As of now you will notice the push being working for v8 but not for v7 (for transports based on WebSockets)
  where the UI is refreshed only upon server round trip and moreover there is exception thrown
 upon ReceivingUI registering for push messages receiving (extract from stack trace):
 
@@ -69,6 +69,6 @@ Severe:   java.lang.ClassCastException: java.lang.String cannot be cast to javax
 
 
 ## Links
-- [Vaadin Framework - Advanced Topics - Vaadin CDI Add-on] (https://vaadin.com/docs/-/part/framework/advanced/advanced-cdi.html)
+- [Vaadin Framework - Advanced Topics - Vaadin CDI Add-on](https://vaadin.com/docs/-/part/framework/advanced/advanced-cdi.html)
 - [Vaadin Framework - Advanced Topics - Server Push](https://vaadin.com/docs/-/part/framework/advanced/advanced-push.html)
 
