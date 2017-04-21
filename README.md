@@ -37,6 +37,7 @@ SendingUI and ReceivingUIs are linked in back-end using singleton broadcaster
 - deploy application `vaadin-cdiui-push-poc-v8/target/vaadin-cdiui-push-poc-v8.war` to your application server to test Vaadin v8
 - and/or deploy application `vaadin-cdiui-push-poc-v7/target/vaadin-cdiui-push-poc-v7.war` to your application server to test Vaadin v7
 
+[![Build Status](https://travis-ci.org/bienjaroslav/vaadin-cdiui-push-poc.svg?branch=master)](https://travis-ci.org/bienjaroslav/vaadin-cdiui-push-poc)
 
 ## Testing
 
